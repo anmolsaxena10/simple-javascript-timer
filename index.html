@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body class="text-center" style="margin: 0">
+	<div class="container-fluid">
+		<h1>Count Down Timer</h1>
+		<div class="row">
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-md-5" for="targetDate">Count Till : </label>
+				<div class="col-md-3"><input type="datetime-local" name="targetDate" id="targetDate" class="form-control"></div>
+			</div>
+		</form>
+		</div>
+		<button class="btn" id="startCount">Start Counting</button>
+	</div>
+	<div id="displayCount">
+		
+	</div>
+	
+</body>
+</html>
