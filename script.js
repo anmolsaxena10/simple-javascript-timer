@@ -27,7 +27,12 @@ function updateCounter(){
 		
 		console.log(remainingMills);
 		
-		$("#displayCount").html("<h1>"+days+" Days "+hrs+"h:"+mins+"m:"+secs+"s</h1>");
+		//$("#displayCount").html("<h1>"+days+" Days "+hrs+"h:"+mins+"m:"+secs+"s</h1>");
+		
+		$("#day").html(days);
+		$("#hr").html(hrs);
+		$("#min").html(mins);
+		$("#sec").html(secs);
 	}
 	else{
 		clearInterval(t);

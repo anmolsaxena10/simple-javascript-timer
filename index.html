@@ -8,10 +8,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<script src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Crimson+Text" rel="stylesheet">
 </head>
-<body class="text-center" style="margin: 0">
+<body class="text-center" style="margin: 0; background-color: #8ac2f7">
 	<div class="container-fluid">
-		<h1>Count Down Timer</h1>
+		<h1 style="font-family: 'Bitter', serif;">Count Down Timer</h1>
 		<div class="row">
 		<form class="form-horizontal">
 			<div class="form-group">
@@ -20,11 +21,26 @@
 			</div>
 		</form>
 		</div>
-		<button class="btn" id="startCount">Start Counting</button>
+		<button class="btn btn-info" id="startCount">Start Counting</button>
 	</div>
 	<div id="displayCount">
 		
 	</div>
-	
+	<h1>
+	<div class="row" style="width: 100%; margin: 0 auto; font-family: 'Crimson Text', serif;">
+		<div class="well col-md-3 col-sm-3 col-xs-3" style="background-color: #68a9e8;" >
+			<div id="day">0</div><h3><label >Days</label></h3>
+		</div>
+		<div class="well col-md-3 col-sm-3 col-xs-3" style="background-color: #68a9e8;">
+			<div id="hr">0</div><h3><label>Hours</label></h3>
+		</div>
+		<div class="well col-md-3 col-sm-3 col-xs-3" style="background-color: #68a9e8;">
+			<div id="min">0</div><h3><label>Mins</label></h3>
+		</div>
+		<div class="well col-md-3 col-sm-3 col-xs-3" style="background-color: #68a9e8;">
+			<div id="sec">0</div><h3><label>Secs</label></h3>
+		</div>
+	</div>
+	</h1>
 </body>
 </html>
